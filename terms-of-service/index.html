@@ -160,20 +160,14 @@
         }
         
         .logo {
-            font-size: 24px;
-            font-weight: 700;
-            font-family: var(--font-mono);
-            color: var(--light);
             text-decoration: none;
             display: flex;
             align-items: center;
-            gap: 8px;
         }
-        
-        .logo::before {
-            content: '▸';
-            color: var(--primary);
-            font-size: 28px;
+
+        .logo img {
+            height: 40px;
+            width: auto;
         }
         
         /* Hero Section */
@@ -419,7 +413,9 @@
     <header>
         <div class="container">
             <nav>
-                <a href="../../index.html" class="logo">DevScape.io</a>
+                <a href="../../index.html" class="logo">
+                    <img src="../images/header_logo.svg" alt="DevScape.io">
+                </a>
             </nav>
         </div>
     </header>

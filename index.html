@@ -155,20 +155,14 @@
         }
         
         .logo {
-            font-size: 24px;
-            font-weight: 700;
-            font-family: var(--font-mono);
-            color: var(--light);
             text-decoration: none;
             display: flex;
             align-items: center;
-            gap: 8px;
         }
-        
-        .logo::before {
-            content: '▸';
-            color: var(--primary);
-            font-size: 28px;
+
+        .logo img {
+            height: 40px;
+            width: auto;
         }
         
         .nav-links {
@@ -418,7 +412,9 @@
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo">DevScape.io</a>
+                <a href="#" class="logo">
+                    <img src="images/header_logo.svg" alt="DevScape.io">
+                </a>
             </nav>
         </div>
     </header>
