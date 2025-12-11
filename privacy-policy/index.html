@@ -168,6 +168,14 @@
         .logo img {
             height: 40px;
             width: auto;
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+        @media (max-width: 768px) {
+            .logo img {
+                height: 32px;
+            }
         }
         
         /* Hero Section */
@@ -414,7 +422,7 @@
         <div class="container">
             <nav>
                 <a href="../../index.html" class="logo">
-                    <img src="../images/header_logo.svg" alt="DevScape.io">
+                    <img src="../assets/images/header_logo.png" alt="DevScape.io">
                 </a>
             </nav>
         </div>
